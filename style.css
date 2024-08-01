@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  display: flex;
+  width: 100vh;
+  height: 10%;
+  align-content: flex-end;
+  text-align: right;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+
+  height: 100vh;
+  width: 30%;
+  background-color: #ffd4cd;
+}
+
+#logo {
+  height: 500px;
+  width: 50%;
+}
+
+.frase-sidebar {
+  display: inline;
+  margin-left: 60%;
+  font-family: "Montserrat Subrayada", sans-serif;
+  width: 50%;
+  font-size: 49px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.container {
+    position:relative;
+    justify-content: space-between;
+    gap: 30px;
+}
+.col img {
+  margin-top: 30px;
+  height: 100px;
+  width: 200px;
+}
